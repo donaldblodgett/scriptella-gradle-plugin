@@ -30,9 +30,9 @@ import scriptella.execution.EtlExecutorException;
 import scriptella.util.IOUtils;
 
 /**
- * This class is used to execute the each activity in the {@code activities}
- * closure or only those defined in the {@code runList} of the
- * {@scriptella} block.
+ * This class is used to execute the each activity in the
+ * <code>activities</code> closure or only those defined in the
+ * <code>runList</code> of the <code>scriptella</code> block.
  * 
  * @author Donald Blodgett
  */
@@ -44,7 +44,9 @@ public class ScriptellaExecutor {
   /**
    * 
    * @param task
+   *          The Scriptella task to be executed
    * @param extension
+   *          The Scriptella configuration to be used by the task
    */
   public ScriptellaExecutor(ScriptellaTask task, ScriptellaExtension extension) {
     this.task = task;

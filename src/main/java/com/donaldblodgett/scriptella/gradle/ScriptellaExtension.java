@@ -57,6 +57,9 @@ public class ScriptellaExtension {
    * string of comma separated activity names. This is a string instead of an
    * array to facilitate the use of Gradle properties. If no runList is defined,
    * the plugin will run all activities.
+   * 
+   * @param runList
+   *          The comma separated list of activities to be executed
    */
   public void setRunList(String runList) {
     this.runList = runList;

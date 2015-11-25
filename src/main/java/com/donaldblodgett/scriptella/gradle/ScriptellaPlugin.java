@@ -36,8 +36,8 @@ public class ScriptellaPlugin implements Plugin<Project> {
   /**
    * Enhances the project with the Scriptella plugin
    * 
-   * @param The
-   *          project to enhance
+   * @param project
+   *          The project to enhance
    */
   public void apply(Project project) {
     applyExtension(project);
