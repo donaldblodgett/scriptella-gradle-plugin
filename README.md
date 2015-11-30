@@ -23,7 +23,7 @@ apply plugin: 'scriptella'
 
 News
 ----
-###October 15, 2015
+###November 25, 2015
 The plugin has been released with support for Scriptella 1.1.
 
 ## Usage
